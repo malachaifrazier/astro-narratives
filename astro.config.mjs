@@ -37,9 +37,6 @@ export default defineConfig({
     rehypePlugins: [[rehypePrettyCode, rehypePrettyCodeOptions]],
     remarkPlugins: [remarkReadingTime],
   },
-  experimental: {
-    assets: true,
-  },
   vite: {
     plugins: [
       Icons({

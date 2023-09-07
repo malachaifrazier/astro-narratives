@@ -3,8 +3,9 @@ import PhMoonStarsFill from "~icons/ph/moon-stars-fill";
 import PhSunFill from "~icons/ph/sun-fill";
 
 export default function ToggleTheme() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") ?? "dark");
-
+  const [theme, setTheme] = useState(
+    typeof window !== "undefined" ? localStorage.theme : "dark"
+  );
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
@@ -18,6 +19,20 @@ export default function ToggleTheme() {
   const toggleTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
+
+  // export default function DarkModeToggle() {
+  //   const [theme, setTheme] = useState(localStorage.theme);
+  //   const colorTheme = theme === 'dark' ? 'light' : 'dark';
+  //   useEffect(() => {
+  //     const root = window.document.documentElement;
+
+  //     root.classList.remove(colorTheme);
+  //     root.classList.add(theme);
+  //     localStorage.setItem('theme', theme);
+  //   }, [theme, colorTheme]);
+
+  //   return [colorTheme, setTheme];
+  // }
 
   return (
     <button

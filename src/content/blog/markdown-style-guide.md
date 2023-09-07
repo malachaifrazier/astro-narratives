@@ -5,7 +5,7 @@ featured: true
 seriesId: first-series
 orderInSeries: 5
 pubDate: "Jul 01 2022"
-cover: "~/assets/placeholder-hero.png"
+cover: "../../assets/placeholder-hero.png"
 coverAlt: "Hero Image"
 tags:
   - markdown
@@ -38,7 +38,7 @@ The blockquote element represents content that is quoted from another source, op
 
 ### Blockquote without attribution
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
 > **Note** that you can use _Markdown syntax_ within a blockquote.
 
 ### Blockquote with attribution
