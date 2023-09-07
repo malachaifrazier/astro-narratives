@@ -37,7 +37,7 @@
 - 📄 500 Page
 
 ## Frontmatter Options
-```md
+```
 ---
 title: Astro now has Draft Posts in Markdown!
 author: Sarah
@@ -48,7 +48,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 slug: draft-markdown-posts-in-astro
 tags: ["astro", "markdown", "blogging"]
 ---
-```md
+```
 
 ## 🧞 Commands
 All commands are run from the root of the project, from a terminal:
