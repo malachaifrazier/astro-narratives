@@ -1,6 +1,4 @@
-# Personal Blog using Astro 2.0 and TailwindCSS
-
-![nimbus-narratives-1](https://github.com/malachaifrazier/astro-narratives/assets/11673834/8e482adb-d1aa-424c-94d3-b8f930f7e67d)
+# Simple Blog using Astro 3.0 and Tailwind
 
 ## Features
 - ✅ Minimal styling
@@ -56,7 +54,7 @@ All commands are run from the root of the project, from a terminal:
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
 | `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
@@ -74,12 +72,15 @@ We use GitHub Issues as the official bug tracker for this Template. Please Searc
 If your problem or idea has not yet been addressed, please [open a new issue](https://github.com/malachaifrazier/astro-narratives/issues).
 
 ## 👨‍💻 Need Creative Development Services?
-Sweet! I'm a Creative Technical Product Developer. I love creative writing, copywriting, proofreading/editing, coming up with *wild* ideas, and building beautiful, fast, and product-focused websites and web apps.
+Sweet! I'm a Creative Technical Product Developer. I love creative writing, copywriting, proofreading/editing, coming up with *wild* ideas, and building cool tech thangs.
+
+I'm currently working on a few projects, but I'm always open to new opportunities! I'm also available for freelance work  and contract work.
+
 If I'm not working on a project or building a product, I'm probably creating fictional technical documentation, drafting an article, reading a book, or learning something new.
 
 Need tech help? I'm usually working with:
  - Ruby on Rails, Hugo, Bridgetown, Middleman, Sinatra, Astro, etc.
- - [Hire me](https://noonthirty.one).
+ - [Reach me on the App formally known as the Bird App](https://twitter.com/malcreatesstuff).
 
 ## 📝 License
 Released under the [MIT License © 2023](https://github.com/malachaifrazier/astro-narratives/blob/main/LICENSE) license.
