@@ -50,25 +50,7 @@ tags: ["astro", "markdown", "blogging"]
 ---
 ```md
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
-
 ## 🧞 Commands
-
 All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                           |
